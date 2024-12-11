@@ -352,8 +352,8 @@ def main():
     args = parser.parse_args()
     prefix_length = args.prefix_length
     dataset = ClipCocoDataset(args.data, prefix_length, normalize_prefix=args.normalize_prefix)
-    # prefix_dim = 640 if args.is_rn else 512
-    prefix_dim = 640
+    prefix_dim = 640 if args.is_rn else 512
+    # prefix_dim = 640
     args.mapping_type = {'mlp': MappingType.MLP, 'transformer': MappingType.Transformer}[args.mapping_type]
     if args.only_prefix:
         model = ClipCaptionPrefix(prefix_length, clip_length=args.prefix_length_clip, prefix_size=prefix_dim,
