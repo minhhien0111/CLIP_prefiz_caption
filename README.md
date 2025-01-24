@@ -12,4 +12,4 @@
 ## Chủ đề Image Caption - Phương pháp CLIP kết hợp GPT-2
 - Cách chạy demo của nhóm:
     + Cloning Repository của nhóm về.
-    + sử dụng file clip-gpt2.ipynb để chạy demo hoặc link notebook kaggle: https://www.kaggle.com/code/hintngminh/clip-gpt2
+    + Sử dụng file clip-gpt2.ipynb để chạy demo hoặc link notebook kaggle: https://www.kaggle.com/code/hintngminh/clip-gpt2
